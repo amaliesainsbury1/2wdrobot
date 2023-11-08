@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=Ax2WDRobot.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Ax2WDRobot.SchDoc|Designator= |SchDesignator= |FileName=ESP32.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=ESP32.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=ESP32.SchDoc|Designator= |SchDesignator= |FileName=CP2102.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=CP2102.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=CP2102.SchDoc|Designator= |SchDesignator= |FileName=Power.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=Power.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Power.SchDoc|Designator=U_BatteryPower|SchDesignator=U_BatteryPower|FileName=BatteryPower.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=BatteryPower.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

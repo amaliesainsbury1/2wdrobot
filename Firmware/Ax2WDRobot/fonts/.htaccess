@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	
+	RewriteCond %{HTTP_REFERER} !www.abrantix.com  [NC]
+	RewriteCond %{HTTP_REFERER} !abrantix.gb-projekt.de  [NC]
+	RewriteRule .* - [F]
+</IfModule>

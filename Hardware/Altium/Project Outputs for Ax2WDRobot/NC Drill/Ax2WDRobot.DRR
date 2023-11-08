@@ -1,0 +1,28 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Ax2WDRobot.PcbDoc   02/10/2023  15:18:38
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Ax2WDRobot-RoundHoles.TXT
+ASCII SlotHoles File : Ax2WDRobot-SlotHoles.TXT
+EIA File   : Ax2WDRobot.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             878       PTH        147.44inch (3745.02mm)
+T2      16mil (0.4mm)                                             Round             130       PTH        26.43inch (671.44mm)
+T3      20mil (0.5mm)                                             Round             14        PTH        10.07inch (255.68mm)
+T4      24mil (0.6mm)                                             Round             3         PTH        1.84inch (46.81mm)
+T5      26mil (0.65mm)                                            Slot              4         PTH        1.49inch (37.92mm)
+T6      32mil (0.8mm)                                             Round             12        PTH        6.28inch (159.39mm)
+T7      49mil (1.25mm)                                            Round             4         PTH        1.18inch (30.00mm)
+T8      28mil (0.7mm)                                             Round             2         NPTH       0.23inch (5.78mm)
+T9      35mil (0.9mm)                                             Round             2         NPTH       0.12inch (3.00mm)
+T10     73mil (1.85mm)                                            Round             2         NPTH       0.35inch (9.00mm)
+T11     94mil (2.388mm)                                           Round             1         NPTH       0.00inch (0.00mm)
+T12     126mil (3.2mm)                                            Round             6         NPTH       12.60inch (320.05mm)
+T13     136mil (3.45mm)                                           Round             2         NPTH       2.26inch (57.52mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1060
+
+Total Processing Time (hh:mm:ss) : 00:00:00

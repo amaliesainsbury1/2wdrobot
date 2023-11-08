@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/.pio
+/__pycache__
+**/__Previews
+Hardware/Altium/History/
+Hardware/Altium/Project Logs for Ax2WDRobot/
+*.skb
+

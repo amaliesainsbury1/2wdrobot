@@ -1,0 +1,18 @@
+1x Ax2WDRobot Mainboard
+1x 18650 Battery i.e. NCR18650B
+1x OLED Display 0.96" SSD1306
+1x Ultrasonic Sensor RCW-0001
+1x Camera-Module OV2640 wide angle 120°
+2x TT Gear motor Dual Shaft with Wheel and Dupont wires soldered on
+1x Swivel caster roller ~45x28x14mm
+1x Zip tie
+4x M3 Button Head screw 10mm
+2x M3 Button Head screw 14mm
+4x M3 Button Head screw 25mm
+10x M3 Nut
+10x M3 Spring washer
+1x roller spacer (3d printed)
+2x motor holder (3d printed)
+
+Optional:
+1x USB Type A to C data/charging cable

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- App title -->
+    <title>Abrantix AG - Robot Control</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+
+    <!-- Link css file -->
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+    
+    <!-- Navigation bar -->
+    <header class="header">
+        <!-- Logo -->
+        <a href="#" class="logo"><img src="image/ax_claim_white.png" alt="Abrantix" height="40"></a>
+
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+
+        <!-- Menu -->
+        <nav class="nav">
+          <ul class="menu">
+                <li><a href="home.html">Robots</a></li>
+                <li><a href="networkconfig.html">Network Configuration</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <article>
+          <div class="about-grid">
+            <a href="https://www.github.com/abrantix/2wdrobot">2WDRobot project on Github</a>
+            <br/><br/>
+            <div>Firmware-Version: %FIRMWARE_VERSION%</div>
+            <div>MAC-Address: %MAC_ADDRESS%</div>
+          <div>
+        </article>
+    </main>
+  <script>
+    function EnableDisable() {
+    var wifiboxNodes = document.getElementById('wifibox').getElementsByTagName('*');
+    for (var node of wifiboxNodes) {
+      node.disabled = !document.getElementById('n2').checked;
+    }
+  }
+  </script>
+</body>
+</html>
