@@ -5,6 +5,7 @@
 #include "CameraHandler.h"
 #include "MotorDriver.hpp"
 #include "Ultrasonic.h"
+#include "Bitmap.h"
 
 //
 // WARNING!!! PSRAM IC required for UXGA resolution and high JPEG quality
@@ -46,6 +47,8 @@ void setup() {
   pinMode(TWI_SEL_PIN, OUTPUT);
 
   AxDisplayInstance.Init(&Wire);
+  AxDisplayInstance.DisplayBitmap(epd_bitmap_picasso, 1024);
+  delay(3000);
   AxDisplayInstance.Display("Examining\nHardware");
 
   MotorDriverInstance.Init();
@@ -105,6 +108,8 @@ void processButtons()
   {
     TRACELN("Disable Screen Saver");
     AxDisplayInstance.DisableScreenSaver();
+    AxDisplayInstance.DisplayBitmap(epd_bitmap_monalisa, 1024);
+    delay(3000);
   }
 
   /* Check if Front button was pressed for long time - either directly at startup or at a later time */
